@@ -2,21 +2,91 @@
 <html>
     <head>
         <meta charset="utf-8">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             Charles Uthulor's | Carousel
         </title>
         <link rel = 'stylesheet' href = 'style.css'/>
+        <script src="https://kit.fontawesome.com/c028d1de0a.js" samesite = "secure" crossorigin="anonymous"></script>
         <script src = 'main.js' defer></script>
     </head>
 
     <body>
-        <div id = 'my-carousel'>
-            <div class = 'carousel-item'> Charles </div>
-            <div class = 'carousel-item'> </div>
-            <div class = 'carousel-item'> </div>
-            <div class = 'carousel-item'> </div>
-            <div class = 'carousel-item'> </div>
+        <div id = 'my-carousel' class="my-carousel">
+            
+            <div class = 'carousel-item one'  style = 'background-image: url("images/1.jpg");'>  
+            </div>
+            <div class = 'carousel-item two' style = 'background-image :url("images/3.jpg")'>
+            </div>
+            <div class = 'carousel-item three' style = 'background-image :url("images/4.jpg")'> </div>
+            <div class = 'carousel-item four' style = 'background-image :url("images/5.jpg")'> </div>
+            <div class = 'carousel-item five' style = 'background-image :url("images/6.jpg")'> </div>
+
+
+            <div class = "description text-one">
+                <h2>Moscow</h2>
+                <p>A place where the cold makes you wonder.
+                    Moscow is one of the lovely place and a perfect tourist destination around the world.
+                     It is famous for its historical and architectural monuments.
+                     It is a popular hometown to some of the famous gardens, museums, and cathedrals.
+                </p>
+            </div>
+
+            <div class = "description text-two">
+                <h2>Paris</h2>
+                <p>Where my heart finds and searches for love.
+                    What Paris is famous for? Paris is famous for its cafe culture,
+                     the Eiffel Tower, the Louvre, Notre Dame,
+                      the Moulin Rouge, pastries, and fashion. Paris is often seen as having beauty,
+                     elegance, and as being a boldly romantic city.
+                </p>
+            </div>
+
+            <div class = "description text-three">
+                <h2>Hamburg</h2>
+                <p>Enjoy the beautiful sunrise... Isn't it glorious?
+                    Hamburg today is an elegant, modern city and a cultural centre, 
+                    widely known for its opera, theatres, magazine and book-publishing houses,
+                     radio and television broadcasting centres, and film studios
+                </p>
+            </div>
+
+            <div class = "description text-four">
+                <h2>Tokyo</h2>
+                <p>A place for Samurais and the famous Taekwando.
+                    Tokyo is famous for Anime, electronics, manga, and video games. 
+                    Akihabara is the epicenter if it all. It becomes a jungle of electric lights and colors at night,
+                     providing a sensory overload for visitors.
+                </p>
+            </div>
+
+            <div class = "description text-five">
+                <h2>Sydney</h2>
+                <p>Where the operas sing like never before.
+                    Sydney — a coastal metropolis whose five million residents make it the largest city in Australia —
+                     is famous for many things. The glittering harbour, complemented by landmarks like the Sydney Opera 
+                     House and the Sydney Harbour Bridge.
+                     The dozens of sun-bathed beaches peppering the spectacular coastline
+                </p>
+            </div>
+
+            <span class="direction left" id = "left"></span>
+            <span class = "direction right" id = "right"></span>
+            
+
+            <form class = 'radio'>
+                <input class = 'my-radio' id = 'radio-one' type = 'radio' checked = 'checked'/>
+                <input class="my-radio" id = 'radio-two' type = 'radio' />
+                <input class="my-radio" id = 'radio-three' type = 'radio' />
+                <input class="my-radio" id = 'radio-four' type = 'radio' />
+                <input class="my-radio" id = 'radio-five' type = 'radio' />
+
+
+            </form>
+
+
         </div>
+
+
     </body>
 </html>
